@@ -49,7 +49,7 @@ const Highlights = () => {
           <div className="flex flex-wrap gap-3 mt-6">
             {Languages.map((languages, index) => (
               <div
-                className="flex flex-col bg-white py-2 px-4 text-xs rounded-full border border-gray-200"
+                className="flex flex-col bg-white py-2 px-4 text-xs rounded-full border border-gray-200 shadow-xs"
                 key={index}
               >
                 {languages}
