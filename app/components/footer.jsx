@@ -54,8 +54,8 @@ const footer = () => {
         </div>
         <div className="space-y-2">
           <h1>Contact Us</h1>
-          {Contact.map((contact) => (
-            <div className="flex gap-2 items-center">
+          {Contact.map((contact, index) => (
+            <div className="flex gap-2 items-center" key={index}>
               <span className="text-purple-500">{contact.icons}</span>
               <span className="font-thin">{contact.details}</span>
             </div>
